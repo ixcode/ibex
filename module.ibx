@@ -2,6 +2,9 @@
   "is" : "ibx-module",
   "module" : ["platform.ixcode.org", "platform-build", "1.0"],
   "dependencies" : {
+    "repositories" : [
+      "http://repo.ixcode.org/artifacts"
+    ],
     "development" : [
       "hamcrest"
     ],
@@ -12,9 +15,6 @@
       "org.antlr:antlr-runtime:3.1.3",
       "com.thoughtworks.paranamer:paranamer:2.4.1",
       "org.ixcode.platform:platform-core:1.0"
-    ],
-    "repositories" : [
-      "http://repo.ixcode.org/artifacts"
     ]
   }
 }
